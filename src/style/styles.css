@@ -140,7 +140,7 @@ article{
     margin: 0 auto;
 }
 
-@media (max-width: 1200px)  {
+@media (max-width: 1000px)  {
     article{
         flex-direction: column;
     }
