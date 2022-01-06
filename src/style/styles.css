@@ -134,32 +134,35 @@ article{
     padding: 20px;
     width: 90%;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
 }
 
-.monster-image{
-    max-width: 250px;
+@media (max-width: 1200px)  {
+    article{
+        flex-direction: column;
+    }
 }
 
-.description-hero{
-    max-width: 50%;
+.monster-image{
+    max-width: 38vh;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 7.5vh;
 }
 
 p{
-    padding: 20px 0 0 0;
-    font-size: 24px;
+    padding: 20px 20px 20px 0;
+    font-size: 3.2vh;
 }
 
 .specifications{
     border: 1px solid #7879F1;
     background-color: #cfcfcf;
-    font-size: 16px;
+    font-size: 2.5vh;
 }
 
 .specifications-list{
@@ -167,7 +170,7 @@ p{
 }
 
 .specifications-list li{
-    height: 30px;
+    height: 4.5vh;
 }
 
 footer{
